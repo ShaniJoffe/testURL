@@ -23,8 +23,13 @@
                             "dish_id_inRest": 2,
                             "dish_name": "ציפס מדהייים",
                             "dish_price": "45"
+                        },
+                        {
+                            "dish_description": "ציפוס לא משהו בצבע ירוק",
+                            "dish_id_inRest": 2.1,
+                            "dish_name": "ציפס ירוק ",
+                            "dish_price": "66"
                         }
-                       
                     ]
                 }
             }
@@ -51,8 +56,13 @@
                             "dish_id_inRest": 1,
                             "dish_name": "טבעות בצל",
                             "dish_price": "60"
+                        },
+                        {
+                            "dish_description": "ציפס ברוטב חמוץ מתוק",
+                            "dish_id_inRest": 1.1,
+                            "dish_name": "ציפס חמוץ מתוק",
+                            "dish_price": "50"
                         }
-                       
                     ]
                 }
             }
