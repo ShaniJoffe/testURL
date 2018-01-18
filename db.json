@@ -1,31 +1,61 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "status": 200,
+    "message": [
+        {
+            "_index": "hungrymonkeyrests",
+            "_type": "restaurants",
+            "_id": "2",
+            "_score": 0.39556286,
+            "_source": {
+                "rest_name": "המסעדה של שני",
+                "rest_zip": "666666",
+                "Kosher": true,
+                "rest_location": {
+                    "lat": 31.7824196,
+                    "lon": 35.2970654
+                },
+                "rest_address": "הכינור 19/4 מעלה אדומים",
+                "rest_desc": "",
+                "title": {
+                    "menu": [
+                        {
+                            "dish_description": "ציפס מושלם בצבע ירוק",
+                            "dish_id_inRest": 2,
+                            "dish_name": "ציפס מדהייים",
+                            "dish_price": "45"
+                        }
+                       
+                    ]
+                }
+            }
+        },
+        {
+            "_index": "hungrymonkeyrests",
+            "_type": "restaurants",
+            "_id": "1",
+            "_score": 0.2876821,
+            "_source": {
+                "rest_name": "המסעדה של דניאל",
+                "rest_zip": "6766",
+                "Kosher": true,
+                "rest_location": {
+                    "lat": 31.78300729999999,
+                    "lon": 35.3103762
+                },
+                "rest_address": "הרכס 149 מעלה אדומים",
+                "rest_desc": "מסעדה דה בסט",
+                "title": {
+                    "menu": [
+                        {
+                            "dish_description": "טבעות בצל מעולותתתת ברוטב צילי מתוק",
+                            "dish_id_inRest": 1,
+                            "dish_name": "טבעות בצל",
+                            "dish_price": "60"
+                        }
+                       
+                    ]
+                }
+            }
+        }
+    ]
 }
